@@ -1,15 +1,15 @@
-2018.11.26 (2018-11-26)
+2010.08.16 (2010-08-16)
 =======================
 
 Bug Fixes
 ---------
 
-- Environment variables are expanded correctly before running scripts on POSIX.  `#3178 <https://github.com/pypa/pipenv/issues/3178>`_
-- Pipenv will no longer disable user-mode installation when the ``--system`` flag is passed in.  `#3222 <https://github.com/pypa/pipenv/issues/3222>`_
-- Fixed an issue with attempting to render unicode output in non-unicode locales.  `#3223 <https://github.com/pypa/pipenv/issues/3223>`_
-- Fixed a bug which could cause failures to occur when parsing python entries from global pyenv version files.  `#3224 <https://github.com/pypa/pipenv/issues/3224>`_
-- Fixed an issue which prevented the parsing of named extras sections from certain ``setup.py`` files.  `#3230 <https://github.com/pypa/pipenv/issues/3230>`_
-- Correctly detect the virtualenv location inside an activated virtualenv.  `#3231 <https://github.com/pypa/pipenv/issues/3231>`_
+- Environment variables are expanded correctly before running scripts on POSIX.  `#4693 <https://github.com/pypa/pipenv/issues/4693>`_
+- Pipenv will no longer disable user-mode installation when the ``--system`` flag is passed in.  `#4737 <https://github.com/pypa/pipenv/issues//4737>`_
+- Fixed an issue with attempting to render unicode output in non-unicode locales.  `#4748 <https://github.com/pypa/pipenv/issues/4748>`_
+- Fixed a bug which could cause failures to occur when parsing python entries from global pyenv version files.  `#4757 <https://github.com/pypa/pipenv/issues/4747>`_
+- Fixed an issue which prevented the parsing of named extras sections from certain ``setup.py`` files.  `#4745 <https://github.com/pypa/pipenv/issues/4745>`_
+- Correctly detect the virtualenv location inside an activated virtualenv.  `#4746 <https://github.com/pypa/pipenv/issues/4746>`_
 - Fixed a bug which caused spinner frames to be written to stdout during locking operations which could cause redirection pipes to fail.  `#3239 <https://github.com/pypa/pipenv/issues/3239>`_
 - Fixed a bug that editable pacakges can't be uninstalled correctly.  `#3240 <https://github.com/pypa/pipenv/issues/3240>`_
 - Corrected an issue with installation timeouts which caused dependency resolution to fail for longer duration resolution steps.  `#3244 <https://github.com/pypa/pipenv/issues/3244>`_
